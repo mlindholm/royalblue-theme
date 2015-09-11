@@ -8,8 +8,6 @@ A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://g
 
 ![Royalblue Theme](Screenshots/royalblue-02.png)
 
-![Royalblue Theme](Screenshots/royalblue-03.png)
-
 ## Activating
 
 You can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area. After downloading the theme add/update your theme entry to 
