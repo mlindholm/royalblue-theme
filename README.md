@@ -2,11 +2,11 @@
 
 A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://github.com/buymeasoda/soda-theme) theme. Most of the icons are drawn by me, some are from [Google Material icons](https://www.google.com/design/icons/).
 
-![Royalblue Theme](royalblue-01.png)
+![Royalblue Theme](royalblue.png)
 
 ## Activating
 
-After downloading the theme add/update your theme entry to 
+You can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area. After downloading the theme add/update your theme entry to 
     
     "theme": "Royalblue.sublime-theme"
 
