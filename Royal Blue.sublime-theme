@@ -77,7 +77,7 @@
     // Tab close button
     {
         "class": "tab_close_button",
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1
     },
@@ -89,7 +89,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "layer0.opacity": 1
     },
     {
@@ -108,7 +108,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": "Royalblue/Icons/circle.png",
+        "layer0.texture": "Royal Blue/Icons/circle.png",
         "layer0.tint": [89, 136, 221],
         "layer0.opacity": 1
     },
@@ -122,7 +122,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
         "layer0.tint": [97, 97, 97]
@@ -189,7 +189,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/menu.png",
+        "layer0.texture": "Royal Blue/Icons/menu.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -203,7 +203,7 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/chevron-left.png",
+        "layer0.texture": "Royal Blue/Icons/chevron-left.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -217,7 +217,7 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/chevron-right.png",
+        "layer0.texture": "Royal Blue/Icons/chevron-right.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -235,7 +235,7 @@
     {
         "class": "fold_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/arrow-right.png",
+        "layer0.texture": "Royal Blue/Icons/arrow-right.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -248,7 +248,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Royalblue/Icons/arrow-down.png"
+        "layer0.texture": "Royal Blue/Icons/arrow-down.png"
     },
     {
         "class": "fold_button_control",
@@ -612,7 +612,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
@@ -627,7 +627,7 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Royalblue/Icons/circle.png",
+        "layer0.texture": "Royal Blue/Icons/circle.png",
         "layer0.tint": [89, 136, 221],
         "layer0.opacity": 1
     },
@@ -641,7 +641,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "layer0.tint": [148, 148, 148],
     },
     // Sidebar file close hover
@@ -669,7 +669,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/arrow-right.png",
+        "layer0.texture": "Royal Blue/Icons/arrow-right.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -688,7 +688,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Royalblue/Icons/arrow-down.png"
+        "layer0.texture": "Royal Blue/Icons/arrow-down.png"
     },
     {
         "class": "disclosure_button_control",
@@ -699,7 +699,7 @@
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Royalblue/Icons/folder-closed.png",
+        "layer0.texture": "Royal Blue/Icons/folder-closed.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [8, 8]
@@ -717,7 +717,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Royalblue/Icons/folder-open.png"
+        "layer0.texture": "Royal Blue/Icons/folder-open.png"
     },
     {
         "class": "icon_folder",
@@ -734,14 +734,14 @@
         {
             "keyframes":
             [
-                "Royalblue/Icons/spinner/spinner7.png",
-                "Royalblue/Icons/spinner/spinner6.png",
-                "Royalblue/Icons/spinner/spinner5.png",
-                "Royalblue/Icons/spinner/spinner4.png",
-                "Royalblue/Icons/spinner/spinner3.png",
-                "Royalblue/Icons/spinner/spinner2.png",
-                "Royalblue/Icons/spinner/spinner1.png",
-                "Royalblue/Icons/spinner/spinner.png"
+                "Royal Blue/Icons/spinner/spinner7.png",
+                "Royal Blue/Icons/spinner/spinner6.png",
+                "Royal Blue/Icons/spinner/spinner5.png",
+                "Royal Blue/Icons/spinner/spinner4.png",
+                "Royal Blue/Icons/spinner/spinner3.png",
+                "Royal Blue/Icons/spinner/spinner2.png",
+                "Royal Blue/Icons/spinner/spinner1.png",
+                "Royal Blue/Icons/spinner/spinner.png"
             ],
             "loop": true,
             "frame_time": 0.075,
@@ -814,7 +814,7 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Royalblue/Icons/arrow-down.png",
+        "layer0.texture": "Royal Blue/Icons/arrow-down.png",
         "layer0.tint": [148, 148, 148],
         "layer0.opacity": 1,
         "layer0.inner_margin": [4, 4]
@@ -995,7 +995,7 @@
     // Panel close button
     {
         "class": "panel_close_button",
-        "layer0.texture": "Royalblue/Icons/close.png",
+        "layer0.texture": "Royal Blue/Icons/close.png",
         "layer0.tint": [148, 148, 148],
         "content_margin": [8, 8]
     },
@@ -1017,7 +1017,7 @@
     // Regex    search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Royalblue/Icons/regex.png",
+        "layer0.texture": "Royal Blue/Icons/regex.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1030,7 +1030,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Royalblue/Icons/casesens.png",
+        "layer0.texture": "Royal Blue/Icons/casesens.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1043,7 +1043,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Royalblue/Icons/wholeword.png",
+        "layer0.texture": "Royal Blue/Icons/wholeword.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1061,7 +1061,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Royalblue/Icons/context.png",
+        "layer0.texture": "Royal Blue/Icons/context.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1074,7 +1074,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Royalblue/Icons/buffer.png",
+        "layer0.texture": "Royal Blue/Icons/buffer.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1092,7 +1092,7 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Royalblue/Icons/reverse.png",
+        "layer0.texture": "Royal Blue/Icons/reverse.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1105,7 +1105,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Royalblue/Icons/wrap.png",
+        "layer0.texture": "Royal Blue/Icons/wrap.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1118,7 +1118,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Royalblue/Icons/selection.png",
+        "layer0.texture": "Royal Blue/Icons/selection.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
@@ -1136,14 +1136,14 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Royalblue/Icons/lock-open.png",
+        "layer0.texture": "Royal Blue/Icons/lock-open.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Royalblue/Icons/lock.png",
+        "layer0.texture": "Royal Blue/Icons/lock.png",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.tint": [89, 136, 221]
     },
@@ -1155,7 +1155,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Royalblue/Icons/highlight.png",
+        "layer0.texture": "Royal Blue/Icons/highlight.png",
         "layer0.tint": [97, 97, 97],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
