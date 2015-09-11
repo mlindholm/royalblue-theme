@@ -4,11 +4,11 @@ A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://g
 
 ## Screenshots
 
-![Royalblue Theme](royalblue-01.png)
+![Royalblue Theme](Screenshots/royalblue-01.png)
 
-![Royalblue Theme](royalblue-02.png)
+![Royalblue Theme](Screenshots/royalblue-02.png)
 
-![Royalblue Theme](royalblue-03.png)
+![Royalblue Theme](Screenshots/royalblue-03.png)
 
 ## Activating
 
