@@ -1,7 +1,7 @@
 [
 
 //
-// TABS (REGULAR)
+// TABS
 //
 
     // Tab set
@@ -25,6 +25,11 @@
         "class": "tabset_control",
         "settings": ["enable_tab_scrolling"],
         "content_margin": [0, 0, 0, 0]
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["!enable_tab_scrolling"],
+        "content_margin": [-1, 0, 0, 0]
     },
     {
         "class": "tabset_control",
