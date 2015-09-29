@@ -10,9 +10,13 @@ A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://g
 
 For more screenshots visit the [project site](http://mlindholm.github.io/royalblue/).
 
-## Activating
+## Installing
 
-You can install the theme and keep up to date by cloning the repo directly into your **Packages** directory in the Sublime Text application settings area. After downloading the theme add/update your theme entry to 
+You can install the theme and keep up to date by cloning the repo directly into your **Packages** directory by using the command below:
+  
+    git clone https://github.com/mlindholm/royalblue-theme.git "Royal Blue"
+
+After downloading the theme add/update your theme entry to 
     
     "theme": "Royal Blue.sublime-theme"
 
