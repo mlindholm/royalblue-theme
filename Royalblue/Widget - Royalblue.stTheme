@@ -5,9 +5,9 @@
 	<key>author</key>
 	<string>Mathias Lindholm</string>
 	<key>comment</key>
-	<string>A widget theme for the UI components of the Royal Blue theme.</string>
+	<string>A widget theme for the UI components of the Royalblue theme.</string>
 	<key>name</key>
-	<string>Royal Blue - Widget Theme</string>
+	<string>Royalblue - Widget Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
