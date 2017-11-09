@@ -22,10 +22,13 @@ After downloading the theme add/update your theme entry to
 
 ## Styles
 
-Color scheme is [Espresso Soda](https://github.com/rm-rf-etc/soda-color-schemes/blob/master/Espresso%20Soda.tmTheme). The code font shown in the screenshots is [Meslo LG S](https://github.com/andreberg/Meslo-Font) by André Berg. 
+I've created a color scheme to go with the theme. The code font shown in the screenshots is [Meslo LG S](https://github.com/andreberg/Meslo-Font) by André Berg.
 
-    "color_scheme": "Packages/User/Espresso Soda.tmTheme",
-    "font_face": "Meslo LG S",
-    "line_padding_bottom": 2,
-    "line_padding_top": 2,
-    "font_size": 11
+    "color_scheme": "Packages/User/Royalblue.tmTheme",
+    "font_face": "Meslo LG M",
+    "font_size": 12,
+    "indent_guide_options":
+    [
+      "draw_normal",
+      "draw_active"
+    ]
