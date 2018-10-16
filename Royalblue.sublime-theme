@@ -7,11 +7,11 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [0, 0, 0, 1],
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 0, 0, 1],
         "layer1.opacity": 1,
@@ -41,9 +41,9 @@
         "class": "tab_control",
         "content_margin": [8, 0],
         "max_margin_trim": 0,
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.inner_margin": [1, 0, 1, 1],
         "layer1.opacity": 1,
         "layer1.draw_center": false,
@@ -83,7 +83,7 @@
     {
         "class": "tab_close_button",
         "layer0.texture": "Royalblue/Icons/close.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1
     },
     {
@@ -102,7 +102,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     {
         "class": "tab_close_button",
@@ -114,7 +114,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "Royalblue/Icons/circle.png",
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
         "layer0.opacity": 1
     },
     {
@@ -130,7 +130,7 @@
         "layer0.texture": "Royalblue/Icons/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     {
         "class": "tab_close_button",
@@ -195,42 +195,42 @@
         "class": "show_tabs_dropdown_button",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/menu.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/chevron-left.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/chevron-right.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
 
 //
@@ -241,14 +241,14 @@
         "class": "fold_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/arrow-right.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "fold_button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     {
         "class": "fold_button_control",
@@ -258,7 +258,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded", "pressed"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
 
 //
@@ -268,7 +268,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.opacity": 0.1,
         "layer0.inner_margin": [0, 0],
         "blur": true
@@ -277,21 +277,21 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.inner_margin": [0, 0],
         "blur": true
     },
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1
     },
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0],
         "content_margin": [6, 0],
@@ -301,7 +301,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0],
         "content_margin": [12, 6],
@@ -327,7 +327,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.inner_margin": [0, 5],
         "layer0.opacity": 0.1,
         "blur": false
@@ -363,7 +363,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.opacity": 0.5
 
     },
@@ -372,7 +372,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.opacity": 0.5
     },
 
@@ -393,7 +393,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [204, 204, 204]
+        "border_color": [212, 212, 212]
     },
 
 //
@@ -425,7 +425,7 @@
 
     {
         "class": "dialog",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1
     },
 
@@ -435,12 +435,12 @@
 
     {
         "class": "progress_bar_control",
-        "layer0.tint": [204, 204, 204],
+        "layer0.tint": [212, 212, 212],
         "layer0.opacity": 1
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
         "layer0.opacity": 1,
         "content_margin": [0, 6]
     },
@@ -472,7 +472,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 0.95,
         "content_margin": [5, 3]
@@ -480,7 +480,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0],
+        "color": [10, 10, 10],
         "font.size": 10
     },
 
@@ -491,11 +491,11 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [0, 1, 0, 0],
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 1, 0, 0],
         "layer1.opacity": 1,
@@ -520,11 +520,11 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [0, 0, 1, 0],
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 0, 1, 0],
         "layer1.opacity": 1,
@@ -540,11 +540,11 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
         "layer0.inner_margin": [0, 0, 1, 0],
         "layer0.opacity": 0,
         "layer0.draw_center": true,
-        "layer1.tint": [0, 0, 0],
+        "layer1.tint": [10, 10, 10],
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 0, 1, 0],
         "layer1.opacity": 0,
@@ -559,7 +559,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [122, 122, 122],
+        "color": [128, 128, 128],
         "font.bold": true
     },
     // Sidebar heading selected
@@ -618,7 +618,7 @@
     {
         "class": "close_button",
         "layer0.texture": "Royalblue/Icons/close.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -633,7 +633,7 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "layer0.texture": "Royalblue/Icons/circle.png",
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
         "layer0.opacity": 1
     },
     {
@@ -647,13 +647,13 @@
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Royalblue/Icons/close.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     {
         "class": "close_button",
@@ -675,14 +675,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/arrow-right.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
     },
     {
         "class": "disclosure_button_control",
@@ -705,7 +705,7 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Royalblue/Icons/folder-closed.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [8, 8]
     },
@@ -769,7 +769,7 @@
     {
         "class": "button_control",
         "content_margin": [8, 8],
-        "min_size": [75, 0],
+        "min_size": [72, 17],
         "layer0.tint": [245, 245, 245],
         "layer0.inner_margin": 1,
         "layer0.opacity": 1,
@@ -778,7 +778,7 @@
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 2, 0, 0],
         "layer1.opacity": 1,
-        "layer2.tint": [189, 189, 189],
+        "layer2.tint": [212, 212, 212],
         "layer2.draw_center": false,
         "layer2.inner_margin": 1,
         "layer2.opacity": 1,
@@ -794,7 +794,7 @@
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer1.tint": [230, 230, 230],
     },
 
@@ -810,7 +810,7 @@
         "layer0.inner_margin": 1,
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [194, 194, 194],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": 1,
         "layer1.opacity": 1
@@ -820,14 +820,14 @@
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Royalblue/Icons/arrow-down.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "layer0.opacity": 1,
         "layer0.inner_margin": [4, 4]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
     },
 
 //
@@ -838,11 +838,11 @@
     {
         "class": "panel_control",
         "content_margin": [4, 4],
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [0, 1, 0, 0],
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": [0, 1, 0, 0],
         "layer1.opacity": 1,
@@ -851,11 +851,11 @@
     {
         "class": "overlay_control",
         "content_margin": [7,6,7,8],
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [8, 8],
         "layer0.opacity": 1,
         "layer0.draw_center": true,
-        "layer1.tint": [204, 204, 204],
+        "layer1.tint": [212, 212, 212],
         "layer1.draw_center": false,
         "layer1.inner_margin": [1, 0, 1, 1],
         "layer1.opacity": 1,
@@ -868,38 +868,38 @@
     {
         "class": "quick_panel",
         "row_padding": [12, 3],
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.opacity": 1,
         "layer0.inner_margin": [4, 4],
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
     },
     {
         "class": "quick_panel_label",
         "fg": [61, 61, 61, 255],
         "match_fg": [31, 31, 31, 255],
-        "selected_fg": [210, 228, 248, 255],
+        "selected_fg": [213, 234, 255, 255],
         "selected_match_fg": [255, 255, 255, 255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [122, 122, 122, 255],
-        "match_fg": [97, 97, 97, 255],
-        "selected_fg": [210, 228, 248, 255],
+        "fg": [128, 128, 128, 255],
+        "match_fg": [102, 102, 102, 255],
+        "selected_fg": [213, 234, 255, 255],
         "selected_match_fg": [255, 255, 255, 255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [74, 144, 226, 255],
-        "selected_fg": [210, 228, 248, 255]
+        "selected_fg": [213, 234, 255, 255]
     },
 
 //
@@ -908,14 +908,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [235, 235, 235],
+        "layer0.tint": [240, 240, 240],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
 
 //
@@ -936,12 +936,12 @@
         "class": "auto_complete_label",
         "fg": [61, 61, 61, 255],
         "match_fg": [31, 31, 31, 255],
-        "selected_fg": [210, 228, 248, 255],
+        "selected_fg": [213, 234, 255, 255],
         "selected_match_fg": [255, 255, 255, 255]
     },
     {
         "class": "table_row",
-        "layer0.tint": [89, 136, 221],
+        "layer0.tint": [28, 126, 214],
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [3, 1]
     },
@@ -959,7 +959,7 @@
     {
         "class": "icon_button_control",
         "content_margin": [6, 6],
-        "layer0.tint": [0, 0, 0],
+        "layer0.tint": [10, 10, 10],
         "layer0.inner_margin": 1,
         "layer0.opacity": 0,
         "layer0.draw_center": true
@@ -1001,13 +1001,13 @@
     {
         "class": "panel_close_button",
         "layer0.texture": "Royalblue/Icons/close.png",
-        "layer0.tint": [148, 148, 148],
+        "layer0.tint": [152, 152, 152],
         "content_margin": [8, 8]
     },
     {
         "class": "panel_close_button",
         "attributes": ["hover"],
-        "layer0.tint": [97, 97, 97]
+        "layer0.tint": [102, 102, 102]
     },
     {
         "class": "panel_close_button",
@@ -1023,40 +1023,40 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Royalblue/Icons/regex.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
         "layer0.texture": "Royalblue/Icons/casesens.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
         "layer0.texture": "Royalblue/Icons/wholeword.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
 
 //
@@ -1067,27 +1067,27 @@
     {
         "class": "icon_context",
         "layer0.texture": "Royalblue/Icons/context.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Royalblue/Icons/buffer.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
 
 //
@@ -1098,40 +1098,40 @@
     {
         "class": "icon_reverse",
         "layer0.texture": "Royalblue/Icons/reverse.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
         "layer0.texture": "Royalblue/Icons/wrap.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
         "layer0.texture": "Royalblue/Icons/selection.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
 
 //
@@ -1142,7 +1142,7 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Royalblue/Icons/lock-open.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
@@ -1150,7 +1150,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Royalblue/Icons/lock.png",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     },
 
 //
@@ -1161,14 +1161,14 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Royalblue/Icons/highlight.png",
-        "layer0.tint": [97, 97, 97],
+        "layer0.tint": [102, 102, 102],
         "layer0.opacity": 1,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [89, 136, 221]
+        "layer0.tint": [28, 126, 214]
     }
 
 ]
