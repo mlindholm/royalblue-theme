@@ -1,6 +1,6 @@
 # Royalblue Theme
 
-A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://github.com/buymeasoda/soda-theme) theme. Most of the icons are drawn by me, some are from [Google Material icons](https://www.google.com/design/icons/).
+A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://github.com/buymeasoda/soda-theme) theme. Most of the icons are drawn by me, some are from [Google Material icons](https://material.io/tools/icons/).
 
 ## Screenshots
 
@@ -8,7 +8,7 @@ A light and flat theme for Sublime Text 3. Loosely based on the [Soda](https://g
 
 ![Royalblue Theme](Screenshots/royalblue-02.png)
 
-For more screenshots visit the [project site](http://mlindholm.github.io/royalblue/).
+For more screenshots visit the [project site](https://mathiaslindholm.com/royalblue-theme/).
 
 ## Installing
 
@@ -18,13 +18,13 @@ You can install the theme and keep up to date by cloning the repo directly into 
 
 After downloading the theme add/update your theme entry to 
     
-    "theme": "Royalblue.sublime-theme"
+    "theme": "Royalblue.sublime-theme",
 
 ## Styles
 
-I've created a color scheme to go with the theme. The code font shown in the screenshots is [Meslo LG S](https://github.com/andreberg/Meslo-Font) by André Berg.
+I've created a color scheme to go with the theme. The code font shown in the screenshots is [Meslo LG](https://github.com/andreberg/Meslo-Font) by André Berg.
 
-    "color_scheme": "Packages/User/Royalblue.tmTheme",
+    "color_scheme": "Packages/Royalblue/Royalblue.tmTheme",
     "font_face": "Meslo LG M",
     "font_size": 12,
     "indent_guide_options":
